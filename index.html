@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic Page Info -->
+    <meta charset="utf-8" />
+    <title>Courtesy - Home</title>
+
+    <!-- Site favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="vendors/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="vendors/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="vendors/images/favicon-16x16.png"
+    />
+
+    <!-- Mobile Specific Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="vendors/styles/core.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendors/styles/icon-font.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="vendors/styles/style.css" />
+
+
+  </head>
+  <body>
+    <!-- <div class="pre-loader">
+      <div class="pre-loader-box">
+        <div class="loader-logo">
+          <img src="vendors/images/courtesy-logo.svg" alt="" />
+        </div>
+        <div class="loader-progress" id="progress_div">
+          <div class="bar" id="bar1"></div>
+        </div>
+        <div class="percent" id="percent1">0%</div>
+        <div class="loading-text">Loading...</div>
+      </div>
+    </div> -->
+
+    <div class="header">
+      <div class="header-left">
+        <div class="menu-icon bi bi-list"></div>
+
+      </div>
+    </div>
+
+    <div class="right-sidebar">
+      <div class="sidebar-title">
+
+        <div class="close-sidebar" data-toggle="right-sidebar-close">
+          <i class="icon-copy ion-close-round"></i>
+        </div>
+      </div>
+      <div class="right-sidebar-body customscroll">
+        <div class="right-sidebar-body-content">
+          <h4 class="weight-600 font-18 pb-10">Header Background</h4>
+          <div class="sidebar-btn-group pb-30 mb-10">
+            <a
+              href="javascript:void(0);"
+              class="btn btn-outline-primary header-white active"
+              >White</a
+            >
+            <a
+              href="javascript:void(0);"
+              class="btn btn-outline-primary header-dark"
+              >Dark</a
+            >
+          </div>
+
+          <h4 class="weight-600 font-18 pb-10">Sidebar Background</h4>
+          <div class="sidebar-btn-group pb-30 mb-10">
+            <a
+              href="javascript:void(0);"
+              class="btn btn-outline-primary sidebar-light"
+              >White</a
+            >
+            <a
+              href="javascript:void(0);"
+              class="btn btn-outline-primary sidebar-dark active"
+              >Dark</a
+            >
+          </div>
+
+
+
+
+
+          <div class="reset-options pt-30 text-center">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="left-side-bar">
+      <div class="brand-logo">
+        <a href="_indext.html">
+          <img
+            src="vendors/images/courtesy-logo.svg"
+            alt=""
+            class="dark-logo"
+          />
+          <img
+            src="vendors/images/courtesy-logo-white.svg"
+            alt=""
+            class="light-logo"
+          />
+        </a>
+        <div class="close-sidebar" data-toggle="left-sidebar-close">
+          <i class="ion-close-round"></i>
+        </div>
+      </div>
+      <div class="menu-block customscroll">
+        <div class="sidebar-menu">
+          <ul id="accordion-menu">
+            <li>
+              <a class="dropdown-toggle no-arrow" href="index.html">
+                <span class="micon bi bi-house"></span
+                ><span class="mtext">Home</span>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-toggle no-arrow" href="profile.html">
+                <span class="micon dw dw-user1"></span
+                ><span class="mtext">Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="setting.html" class="dropdown-toggle no-arrow">
+                <span class="micon dw dw-settings2"></span
+                ><span class="mtext">Setting</span>
+              </a>
+            </li>
+            <li>
+              <a href="_logout.html" class="dropdown-toggle no-arrow">
+                <span class="micon dw dw-logout"></span
+                ><span class="mtext">Log Out</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+
+    <div class="main-container">
+      <div class="xs-pd-20-10 pd-ltr-20">
+        <div
+          class="alert alert-primary alert-dismissible fade show"
+          role="alert"
+        >
+          <strong>Welcome Back Bank BJB!</strong> You can Check all things related to your network in Courtesy.<button
+            type="button"
+            class="close"
+            data-dismiss="alert"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+
+
+    <!-- Network section versi tabel -->
+        <div class="pd-20 card-box mb-30">
+          <div class="clearfix mb-20">
+            <div class="pull-left">
+              <h4 class="text h4">Network Status Ver Table</h4>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 col-sm-12">
+              <div class="form-group">
+                <select class="custom-select form-control">
+                  <option value="">Select SID</option>
+                  <option value="B00201">B00201</option>
+                  <option value="B00213">B00213</option>
+                  <option value="B00311">B00311</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <div class="form-group">
+                <select class="custom-select form-control">
+                  <option value="">Select Status</option>
+                  <option value="B00201">Online</option>
+                  <option value="B00213">Offline</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="input search item"
+                />
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <div class="form-group">
+                <button class="btn btn-primary" type="button">Apply</button>
+              </div>
+            </div>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">SID</th>
+                <th scope="col">Package</th>
+                <th scope="col">Status</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>B00201</td>
+                <td>Internet 20MBPS</td>
+                <td><span class="badge badge-success">Online</span></td>
+                <td><a href="detail.html" class="text-blue font-weight-bolder">View Detail</a></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>B00213</td>
+                <td>Internet 100 Mbps</td>
+                <td><span class="badge badge-danger">Offline</span></td>
+                <td><a href="detail.html" class="text-blue font-weight-bolder">View Detail</a></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>B00311</td>
+                <td>Internet + TV</td>
+                <td><span class="badge badge-success">Online</span></td>
+                <td><a href="detail.html" class="text-blue font-weight-bolder">View Detail</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="collapse collapse-box" id="basic-table">
+            <div class="code-box">
+              <div class="clearfix">
+                <a
+                  href="javascript:;"
+                  class="btn btn-primary btn-sm code-copy pull-left"
+                  data-clipboard-target="#basic-table-code"
+                  ><i class="fa fa-clipboard"></i> Copy Code</a
+                >
+                <a
+                  href="#basic-table"
+                  class="btn btn-primary btn-sm pull-right"
+                  rel="content-y"
+                  data-toggle="collapse"
+                  role="button"
+                  ><i class="fa fa-eye-slash"></i> Hide Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Network section versi card -->
+        <div class="pd-20 card-box mb-30">
+          <div class="clearfix mb-20">
+            <div class="pull-left">
+              <h4 class="text h4">Network Status Ver Card</h4>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 col-sm-12">
+              <div class="form-group">
+                <select class="custom-select form-control">
+                  <option value="">Select SID</option>
+                  <option value="B00201">B00201</option>
+                  <option value="B00213">B00213</option>
+                  <option value="B00311">B00311</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <div class="form-group">
+                <select class="custom-select form-control">
+                  <option value="">Select Status</option>
+                  <option value="B00201">Online</option>
+                  <option value="B00213">Offline</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="input search item"
+                />
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <div class="form-group">
+                <button class="btn btn-primary" type="button">Apply</button>
+              </div>
+            </div>
+          </div>
+          <div class="row pb-10">
+  
+            <div class="col-xl-3 col-lg-3 col-md-6 mb-20">
+              <a href="detail.html">
+              <div class="card-box height-100-p widget-style3">
+                <div class="d-flex flex-wrap">
+                  <div class="widget-data">
+                    <div class="weight-700 font-24 text-dark">B00201</div>
+                    <div class="font-14 text-secondary weight-500">
+                      Internet 20MBPS
+                    </div>
+                  </div>
+                  <div class="widget-icon">
+                    <div
+                      class="icon"
+                      data-color="#09cc06"
+                      style="color: rgb(9, 204, 6)"
+                    >
+                      <span class="icon-copy dw dw-checked"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+  
+            
+            <div class="col-xl-3 col-lg-3 col-md-6 mb-20">
+              <a href="detail.html">
+              <div class="card-box height-100-p widget-style3">
+                <div class="d-flex flex-wrap">
+                  <div class="widget-data">
+                    <div class="weight-700 font-24 text-dark">B00213</div>
+                    <div class="font-14 text-secondary weight-500">
+                      Internet 100 Mbps
+                    </div>
+                  </div>
+                  <div class="widget-icon">
+                    <div
+                      class="icon"
+                      data-color="#ff5b5b"
+                      style="color: rgb(255, 91, 91)"
+                    >
+                      <i class="icon-copy dw dw-warning-1" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+  
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- js -->
+    <script src="vendors/scripts/core.js"></script>
+    <script src="vendors/scripts/script.min.js"></script>
+    <script src="vendors/scripts/process.js"></script>
+    <script src="vendors/scripts/layout-settings.js"></script>
+    <script src="src/plugins/jQuery-Knob-master/jquery.knob.min.js"></script>
+    <script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
+    <script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
+    <script src="src/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+    <script src="src/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="vendors/scripts/dashboard2.js"></script>
+
+  </body>
+</html>
